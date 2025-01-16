@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
    [SerializeField] private GameObject completeLevelUI;
    
-   private bool gameHasEnded = false;
+   public bool gameHasEnded = false;
    private float restartDelay = 1.5f;
    
    
